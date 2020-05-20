@@ -1,2 +1,2 @@
 # imersaocss
-Site do  Projeto DessaliNet utilizando CSS e HTML.
+Site portfólio utilizando CSS e HTML.
