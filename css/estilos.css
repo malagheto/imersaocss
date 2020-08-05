@@ -1,12 +1,12 @@
 body {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMpkalFVkbkKT6AQ4CE3DdCFuKH2b0SflOwrPJDi5ShgVlXtfW&usqp=CAU'); 
+    background-color: #D5F1A3;
     background-size: auto 100vh;
-      font-family: Arial;
+      font-family: Arial; 
     height: 100vh;
   }
   
   .menu {
-    background-color: yellow;
+    background-color: #FE502B;
   }
   .menu ul {
     display: flex;
@@ -25,10 +25,12 @@ body {
   }
   .site-title,
   .site-subtitle {
-    color: whitesmoke;
+    color: #84B926;
     text-align: center;
   }
   
-  .site-subtitle{
-    font-style: italic;
+  .site-title{
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;font-size:45px;background-color:#8AD10C;color:#ffffff;
   }
